@@ -1,0 +1,58 @@
+.button {
+    border-radius: 1.125rem;
+    border: none;
+    column-gap: 0.625rem;
+    cursor:pointer;
+    display: flex;
+    font-size:1.125rem;
+    font-weight: 600;
+    padding: 1.563rem 3.125rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Botão Primário */
+
+.button.primary{
+    background-color: #0C70F2;
+    color:white;
+}
+
+.button.primary:hover{
+    background-color: #0056b3;
+    
+}
+
+
+/* Botão Secundário */
+
+.button.secondary{
+    background-color: #1D1D1D;
+    color:white;
+}
+
+.button.secondary:hover{
+    background-color: #4D5053;
+    
+}
+
+/* Botão Outline */
+
+.button.outline{
+    background-color:white;
+    color:#0C70F2;
+    border: 0.125rem solid #0C70F2;
+}
+
+.button.outline:hover{
+    background-color: #0C70F2;
+    color:white;    
+}
+
+/* Botão Disabled */
+
+.button:disabled, .button:disabled>hover{
+    background-color:#CCC;
+    color:#666;
+    pointer-events: none;
+}
+

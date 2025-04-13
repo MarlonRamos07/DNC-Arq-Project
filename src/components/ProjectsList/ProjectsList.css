@@ -1,0 +1,55 @@
+.projects-section{
+    margin:9.375rem 0;
+    text-align: center;
+}
+
+.projects-hero {
+    margin: 0 auto 6.25rem auto;
+    max-width: 47.938rem;
+}
+.projects-hero h2 {
+    font-size:3.125rem;
+}
+.projects-hero p {
+    font-size:1.375rem;
+    margin: 0.625rem 0 0 0;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.125rem 1.375rem;
+}
+
+.project-card .thumb{
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.313rem;
+    height: 26.875rem;
+    width: 100%;
+}
+
+.project-card h3{
+    font-size:1.563rem;
+    margin: 1.25rem 0 0 0; 
+}
+.project-card p{
+    font-size:1.125rem;
+    
+}
+
+@media (max-width: 768px) {
+    .projects-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3.125rem 1.375rem;
+    }
+    
+}
+@media (max-width: 568px) {
+    .projects-grid{
+        display: grid;
+        grid-template-columns: repeat 1fr;
+        gap: 3.125rem 1.375rem;
+    }
+    
+}
