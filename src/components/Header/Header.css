@@ -21,4 +21,56 @@ nav a {
 nav a:hover{
     color: #0C70F0;
 }
+.mobile-menu{
+    display: none;
+}
+/* @media (max-with: 768px){
+   .nav.open{
+    display:flex;
+    align-items: end;
+   }
+   nav{
+    background-color: #1D1D1D;
+    border-left: 0.625rem solid #333;
+    display: none;
+    flex-direction: column;
+    height:100%;
+    padding:2.313rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 40vw;
+    z-index: 1;
+    box-shadow: -50vw 0px 0px 0px rgba(0,0,0,0.75);
+   }
+   nav ul{
+    flex-direction: column;
+    width: 100%;
+   }
+   nav ul li{
+    display: flex;
+   }
+   nav a {
+    border-bottom: 0.063rem solid white;
+    color:white;
+    font-size:1.25rem;
+    margin: 0 0 0.625rem 0;
+    padding:0.75rem;
+    text-decoration: none;
+    width: 100%;
+   }
 
+   .mobile-menu{
+    display:block;
+   }
+
+   .close-btn{
+    background:none;
+    border:none;
+    color:white;
+    font-size: 1.563rem;
+    margin:0 0 0.75rem;
+    padding:0.75rem;
+    width: fit-content;
+   }
+} */

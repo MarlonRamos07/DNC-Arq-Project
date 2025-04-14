@@ -15,8 +15,8 @@
     font-size:1.375rem;
 }
 
-@media (max-with: 768px){
+/* @media (max-with: 768px){
     .text-section{
         flex-direction: column;
     }
-}
+} */

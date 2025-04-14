@@ -4,12 +4,20 @@ import { Link } from 'react-router-dom'
 import './Header.css'
 import Logo from '../../assets/dncLogo.svg'
 
+//COMPONENTES
+import Button from '../Button/Button'
+
 function Header(){
     return(
         <header>
             <div className="container">
                 <div className="al-center d-flex jc-space-between">
                     <Link to="/"><img src={Logo}/></Link>
+                    <div className="mobile-menu">
+                        <Button buttonStyle="secondary">
+                            Menu
+                        </Button>
+                    </div>
                     <nav>
                     <ul className='d-flex'>
                         <li><Link to="/">Home</Link></li>
