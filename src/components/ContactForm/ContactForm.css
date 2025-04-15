@@ -7,3 +7,23 @@
 .contact-form h2{
    font-size:3.125rem
 }
+
+.contact-form form{
+    margin:2.5rem 0 0 0;
+    width:100%;
+}
+
+.contact-form p{
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+
+.contact-form .form-group{
+    column-gap: 2.438rem;
+    margin:2.5rem 0 0 0;
+}
+
+
+
+

@@ -42,7 +42,7 @@ function ProjectsList(props){
                 </div>
             ))
         ) : (
-            <p>Loading projects...</p>
+            <p>Carregando, aguarde...</p>
         )
     }
             </div>
