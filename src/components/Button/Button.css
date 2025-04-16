@@ -22,7 +22,11 @@
     
 }
 
-
+.button.unstyled{
+    background: none;
+    padding:0;
+    margin:1rem;
+}
 /* Botão Secundário */
 
 .button.secondary{
