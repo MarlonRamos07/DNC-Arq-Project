@@ -1,11 +1,13 @@
 import { useContext } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom'
 
-//Páginas
+//Páginas e Componentes
 import Home from '../src/Pages/Home'
 import About from '../src/Pages/About'
 import Contact from '../src/Pages/Contact'
 import Projects from '../src/Pages/Projects'
+import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
+
 
 // Utilidades
 import ScrollToTop from './utils/ScrollTop'
@@ -15,9 +17,8 @@ function App() {
   const appContext = useContext(AppContext)
 
   if(appContext.loading){
-    return <h1>Carregando...</h1>
+    return <LoadingSpinner/>
   }
-
   return (
     <Router>
       <ScrollToTop/>

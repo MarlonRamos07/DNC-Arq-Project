@@ -1,12 +1,19 @@
+import {useContext} from 'react'
 import Header from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 import Banner from "../components/Banner/Banner"
 import AboutText from "../components/AboutText/AboutText"
+
+//Contexto
+import { AppContext } from '../contexts/AppContext'
+
+
 function About(){
+    const appContext = useContext(AppContext)
     return(
         <>
         <Header/>
-         <Banner title="About" image="aboutus.jpg"/>
+         <Banner title={appContext.languages[appContext.language].menu.about} image="aboutus.jpg"/>
         <div className="container">
             <AboutText />
         </div>
