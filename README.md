@@ -23,17 +23,29 @@ Git & GitHub
 
 DNC-Arq-Project/
 ├── public/
+
 │   └── index.html             # Arquivo HTML principal
+
 ├── src/
+
 │   ├── assets/                # Imagens e recursos visuais
+
 │   ├── components/            # Componentes reutilizáveis da interface
+
 │   ├── pages/                 # Páginas principais (rotas)
+
 │   ├── App.js                 # Componente principal com rotas
+
 │   ├── index.js               # Ponto de entrada da aplicação
+
 │   └── styles/                # Estilizações globais e específicas
+
 ├── package.json               # Dependências e scripts do projeto
+
 ├── .gitignore
+
 └── README.md                  # Documentação do projeto
+
 
 ## 🛠️ Como Rodar o Projeto: 
 
