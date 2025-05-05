@@ -73,7 +73,7 @@ https://github.com/MarlonRamos07/DNC-Arq-Project
 ## 🎨 Layout (Figma)
 https://www.figma.com/design/lzYMhJKI4i7geTOviicb0o/Projeto-React?node-id=0-1&t=bhKxD4i9e23bLojl-1
 
-##👨‍🎓 Autor
+👨‍🎓 Autor
 
 Desenvolvido por:
 Marlon Ramos
