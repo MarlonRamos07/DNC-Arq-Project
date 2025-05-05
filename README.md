@@ -6,11 +6,17 @@ O projeto consiste em uma aplicação React com múltiplas páginas, onde o usu�
 
 ## 🛠️ Tecnologias Utilizadas
 React.js
+
 React Router DOM
+
 JavaScript (ES6+)
+
 HTML5
+
 CSS3
+
 APIs públicas (consumo com fetch)
+
 Git & GitHub
 
 ## 📁 Estrutura do Projeto
