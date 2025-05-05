@@ -68,7 +68,7 @@ Layout responsivo com HTML e CSS puro
 Estrutura de componentes reutilizáveis
 
 ## 💻 Link para o Projeto (Deploy)
-https://github.com/MarlonRamos07/DNC-Arq-Project
+[https://github.com/MarlonRamos07/DNC-Arq-Project](https://dnc-arq-marlon.vercel.app/)
 
 ## 🎨 Layout (Figma)
 https://www.figma.com/design/lzYMhJKI4i7geTOviicb0o/Projeto-React?node-id=0-1&t=bhKxD4i9e23bLojl-1
